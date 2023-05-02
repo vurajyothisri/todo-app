@@ -9,9 +9,9 @@ const EditTodo=({edittodo,task})=>{
     }
     return(
 
-        <form className='todoform' onSubmit={handlesubmit}>
-            <input type="text" value={value} plaeceholder ="update the todo" className='inputfield'  onChange={(e)=>editvalue(e.target.value)} />
-            <button type="submit">Updata Todo</button>
+        <form className='todoform1' onSubmit={handlesubmit}>
+            <input type="text" value={value} plaeceholder ="update the todo" className='inputfield1'  onChange={(e)=>editvalue(e.target.value)} />
+            <button type="submit" className='editbutton'>Updata Todo</button>
         </form>
     );
 }
